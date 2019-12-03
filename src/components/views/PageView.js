@@ -1,8 +1,8 @@
 import React from "react";
-import { Row, Col, Button } from "react-bootstrap";
-import UserCard from "../users/UserCard";
-import UserList from "../users/UserList";
+import { Row, Col } from "react-bootstrap";
+
 import FunctionalComponentForm from "../forms/FunctionalComponentForm";
+import ClassComponentForm from "../forms/ClassComponentForm";
 
 function PageView() {
   return (
@@ -11,8 +11,7 @@ function PageView() {
         <FunctionalComponentForm />
       </Col>
       <Col>
-        <UserCard />
-        <UserList />
+        <ClassComponentForm />
       </Col>
     </Row>
   );

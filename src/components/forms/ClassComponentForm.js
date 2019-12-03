@@ -10,7 +10,7 @@ import {
   Alert
 } from "react-bootstrap";
 
-export default function FunctionalComponentForm() {
+export default function ClassComponentForm() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [hobbies, setHobbies] = useState("");
@@ -39,7 +39,7 @@ export default function FunctionalComponentForm() {
     <>
       <Form onSubmit={handleSubmit}>
         <Card>
-          <Card.Header>Functional Component w/ Hooks User Inputs</Card.Header>
+          <Card.Header>Class Component w/ Redux User Inputs</Card.Header>
           <Card.Body>
             <Row>
               <Col>
