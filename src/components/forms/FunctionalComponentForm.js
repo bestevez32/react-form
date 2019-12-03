@@ -39,7 +39,7 @@ export default function FunctionalComponentForm() {
     <>
       <Form onSubmit={handleSubmit}>
         <Card>
-          <Card.Header>Functional Component w/ Hooks User Inputs</Card.Header>
+          <Card.Header>Functional Component w/ Hooks</Card.Header>
           <Card.Body>
             <Row>
               <Col>

@@ -7,10 +7,10 @@ import ClassComponentForm from "../forms/ClassComponentForm";
 function PageView() {
   return (
     <Row>
-      <Col>
+      <Col className="p-2 m-2" style={{ backgroundColor: "black" }}>
         <FunctionalComponentForm />
       </Col>
-      <Col>
+      <Col className="p-2 m-2" style={{ backgroundColor: "green" }}>
         <ClassComponentForm />
       </Col>
     </Row>
