@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Row, Col, Button, Card, ButtonToolbar } from "react-bootstrap";
 
-function SimpleForm() {
+function FunctionalComponentForm() {
   return (
     <Card>
       <Card.Header>User Inputs</Card.Header>
@@ -49,4 +49,4 @@ function SimpleForm() {
   );
 }
 
-export default SimpleForm;
+export default FunctionalComponentForm;
