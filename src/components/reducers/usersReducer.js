@@ -1,9 +1,11 @@
 import { UPDATE_USERS } from "../../actions/usersActions";
 
-export default function usersReducer(state = "", action) {
+const initialState = [];
+
+export default function usersReducer(state = initialState, action) {
   switch (action.type) {
     case UPDATE_USERS:
-      return action.payload.users;
+      return [...state, action.payload.users];
     default:
       return state;
   }

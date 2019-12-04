@@ -4,7 +4,7 @@ export function updateUsers(first, last, hobby) {
   return {
     type: UPDATE_USERS,
     payload: {
-      users: [{ firstName: first, lastName: last, hobbies: hobby }]
+      users: { firstName: first, lastName: last, hobbies: hobby }
     }
   };
 }
