@@ -17,8 +17,6 @@ export default function FunctionalComponentForm() {
   const [users, setUser] = useState([]);
   const [userSubmit, setUserSubmit] = useState(false);
 
-  console.log(users);
-
   const handleSubmit = event => {
     event.preventDefault();
     setUserSubmit(true);
