@@ -8,6 +8,9 @@ A React/Redux application that
 6. Supports multiple entries.
 
 Developer Notes:
+
+The project is hosted at: https://bestevez32.github.io/react-form/
+
 This was built in order to demonstrate two seperate ways to create forms in a React application. The first was built using a Functional Component form which relied on hooks to manage state. The second used Class Component form which leverages Redux to manage state.
 
 There is code in the index.js file which allows for the use of Redux DevTools in the Chrome Developer Console. This tool allows the user / developer an inspector for Redux state in the application. The extension can be found at https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
