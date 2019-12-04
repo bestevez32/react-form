@@ -119,7 +119,7 @@ class ClassComponentForm extends Component {
               <tbody>
                 {this.props.users
                   ? this.props.users.map(user => (
-                      <tr key={user.last}>
+                      <tr key={user.lastName}>
                         <td>{`${user.firstName} ${user.lastName}`}</td>
                         <td>{user.hobbies}</td>
                       </tr>
